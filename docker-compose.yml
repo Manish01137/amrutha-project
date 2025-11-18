@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  snob:
+    build:
+      context: ./.
+      dockerfile: Dockerfile
+    ports:
+      - "8023:80"
+    restart: unless-stopped
+
+  # api:
+  #   build:
+  #     context: ./backend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8000:8000"
+  #   restart: unless-stopped
+  #   # only start if backend folder exists:
+  #   deploy:
+  #     replicas: 0
+
+# (optional) Use an external reverse-proxy here instead of exposing both
