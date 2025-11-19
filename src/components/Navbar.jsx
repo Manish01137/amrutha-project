@@ -17,7 +17,7 @@ export default function Navbar() {
       ">
         <Link to="/" className="mx-2 sm:mx-4 text-black hover:text-black font-bold hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-black" style={{ textDecoration: 'none' }}>Home</Link>
         <Link to="/about" className="mx-2 sm:mx-4 text-black hover:text-black font-bold hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-black" style={{ textDecoration: 'none' }}>About me</Link>
-        <Link to="/pursuits" className="mx-2 sm:mx-4 text-black hover:text-black font-bold hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-black" style={{ textDecoration: 'none' }}>Pursuits</Link>
+        <Link to="/pursuits" className="mx-2 sm:mx-4 text-black hover:text-black font-bold hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-black" style={{ textDecoration: 'none' }}>Portfolio</Link>
         <Link to="/contact" className="mx-2 sm:mx-4 text-black hover:text-black font-bold hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-black" style={{ textDecoration: 'none' }}>Contact me</Link>
       </div>
     </nav>

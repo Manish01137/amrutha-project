@@ -16,6 +16,12 @@ import asso2 from "../assets/images/about/noscreo.jpg";
 import noscreo1 from "../assets/images/about/noscreo1.jpg";
 import asso3 from "../assets/images/about/tradebull.jpg";
 import asso4 from "../assets/images/about/phodeo.png";
+import phodologo12 from "../assets/images/about/phodologo12.png";
+import nosocologo from "../assets/images/about/nosocologo.png";
+import digitaltina from "../assets/images/about/digitallogog12.png";
+
+import tagglogo22 from "../assets/images/about/taggglogo22.png";
+
 import glow from "../assets/images/Glow.png";
 
 const ventures = [
@@ -75,28 +81,28 @@ const ventures = [
 
 const associatedVentures = [
   {
-    img: asso1,
+    img: phodologo12,
     title: "Tag Unlimited",
     description:
       'Premier apparel manufacturers who are pioneers in the industry relating to fabric and textiles, an enterprise by Mr.Rahul Raj Singh, a dear friend and a go getter who has an always can do attitude. This is a well oiled machine that delivers consistently since time immemorial, no order too low, no order too high. Highly recommended for anything apparel, be it a T-shirt , a sock or 100k hoodies they\'re ones to rely on. Famously known as the "T-shirt" guy for the past two decades, Rahul is your genie.',
     isCarousel: false
   },
   {
-    img: [asso2, noscreo1],
+    img: nosocologo,
     title: "Noscreo (formerly SociaBull)",
     description:
       'Spearheaded and founded by Mr.Karthik Amar and curated and designed by Mr.Harshith, this is an enterprise that breathes and practices "Design", it could be a signpost, a letter, a business card, or even a BRAND. All of Amruth\'s projects are designed and branded by the creative geniuses at Noscreo. Teachers of the modern world helping global businesses and people alike communicate their vision and purpose through interactive design language',
     isCarousel: true
   },
   {
-    img: asso3,
+    img: digitaltina,
     title: "Digital Tenali",
     description:
       'The powerhouse of marketing and content, churning ways to draw attention through campaigns that captivate out of the box. The brainchild of Mr.Poojesh, a man who can sell anything under the sun, a charmer & the synonym for opulence. Creators at Digital Tenali are the quirkiest and most jovial people across the industry, each adding a layer of proprietary idea, innovation and excellence in their own way bringing a whole new meaning to Marketing. Anything to market across all media platforms is churned by the house of Digital Tenali.',
     isCarousel: false
   },
   {
-    img: asso4,
+    img:tagglogo22 ,
     title: "Phodeo by Dharshan",
     description:
       'Freezing moments in time to cherish and reminisce, Mr.Dharshan the director of all things visual. A photographer by profession but an absolute artist behind the camera. His eyes see beyond just the ordinary, capturing a picture worth a thousand words.',
@@ -155,7 +161,7 @@ export default function Ventures() {
       <Navbar />
       <main className="flex-1 w-full py-10 px-2 md:px-20">
         <div className="max-w-7xl mx-auto mt-10 md:mt-16 mb-14 md:mb-28">
-          <h1 className="text-center font-instrumentSans font-semibold text-3xl md:text-7xl">Pursuits</h1>
+          <h1 className="text-center font-instrumentSans font-semibold text-3xl md:text-7xl">Portfolio</h1>
         </div>
         {ventures.map((venture, idx) => (
           <div

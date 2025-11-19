@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -6,6 +7,7 @@ import venture1 from "../assets/images/venture/venture1.png";
 import venture2 from "../assets/images/venture/venture2.png";
 import venture3 from "../assets/images/venture/venture3.png";
 import venture4 from "../assets/images/venture/venture4.png";
+
 import venture5 from "../assets/images/venture/venture5.png";
 import venture6 from "../assets/images/venture/venture6.png";
 import spot from "../assets/images/about/spotlight.png";
@@ -104,7 +106,7 @@ export default function Ventures() {
     <section id="pursuits" className="min-h-screen w-full bg-white flex flex-col pb-0 overflow-x-hidden">
       <div className="w-full px-6 md:px-32 pt-16">
         <h2 className="font-instrumentSans font-semibold text-5xl md:text-7xl text-left text-black mb-6 md:mb-12 w-full">
-          My Pursuits
+          My Portfolio
         </h2>
       </div>
       
